@@ -1,0 +1,23 @@
+@import './variables';
+@import './mixins';
+
+.tile {
+    display: block;
+    padding: $spacing-base;
+    background-color: $primary-color;
+    color: $text-color;
+    text-align: center;
+    transition: background-color 0.3s;
+    backdrop-filter: blur(17px) saturate(128%);
+    -webkit-backdrop-filter: blur(17px) saturate(128%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    &:hover {
+        background-color: $accent-color;
+    }
+
+    &__label {
+        font-size: 1.2rem;
+    }
+}

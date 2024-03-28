@@ -1,0 +1,15 @@
+@import './variables';
+@import './mixins';
+
+.tile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    // grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 20px;
+    /* Adjust as needed */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Center the grid horizontally */
+    padding: 20px;
+    /* Add some padding around the grid */
+}

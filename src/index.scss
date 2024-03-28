@@ -1,0 +1,15 @@
+@import './styles/variables';
+@import './styles/mixins';
+@import './styles/base';
+@import './styles/nav';
+@import './styles/splashScreen';
+@import './styles/tileGrid';
+@import './styles/tile';
+@import './styles/mainPage';
+@import './styles/portfolioPage';
+@import './styles/videographyPage';
+@import './styles/bookingPage';
+@import './styles/aboutPage';
+body {
+    background-color: #254553;
+}

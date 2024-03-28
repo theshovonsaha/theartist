@@ -1,0 +1,14 @@
+@import './variables';
+@import './mixins';
+
+.portfolio-page {
+    &__content {
+        padding: $spacing-large;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 2rem;
+        margin-bottom: $spacing-large;
+    }
+}
